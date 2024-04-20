@@ -1,0 +1,56 @@
+/* Estilos Gerais */
+
+
+h1, a {
+	text-align: center;
+	font-size: 1.25em;
+	font-weight: normal;
+}
+
+body {
+	text-align: center;
+	font-family: monospace;
+	color: #fff;
+	margin: 0px;
+	padding-bottom: 60px;
+    background-color: #000;
+}
+
+body > div {
+	padding: 40px 0;
+}
+
+body > div:nth-of-type(even) {
+	background: rgba(0,0,0,.03);
+}
+.item {
+	margin: 5px;
+	background-color: #fff;
+	text-align: center;
+	font-size: 1.5em;
+    color: #000;
+}
+
+.grid {
+	max-width: 600px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+}
+
+.grid {
+	display: grid;
+}
+
+
+.grid-template-columns-1 {
+	grid-template-columns: 100px 100px 300px 100px;
+   
+}
+
+@media ( max-width: 500px) {
+    body {
+        max-width: auto;
+        position: relative;
+    }
+}
+    
